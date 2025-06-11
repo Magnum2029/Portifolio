@@ -66,7 +66,7 @@ section {
   padding-top: 80px;
   background-color: #d4d0d0;
   border-radius: 8px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   max-width: 900px;
 }
 
@@ -79,7 +79,7 @@ h1, h2 {
     background-color: #d4d0d0;
     padding: 10px;
     border-radius: 8px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     box-shadow: #0c0b0b;
     max-width: 900px;
     margin: auto;
@@ -109,6 +109,10 @@ h1, h2 {
   margin-bottom: 10px;
 }
 
+.projeto p {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .projeto a {
   text-decoration: none;
   color: #00bcd4;
@@ -126,6 +130,10 @@ h1, h2 {
     padding: 10px;
     max-width: 900px;
     margin: auto;
+}
+
+#contato p {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* RODAPÉ */
