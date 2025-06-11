@@ -16,22 +16,21 @@ body {
 
 /* HEADER */
 header {
+  position: fixed;
   background-color: #0c0c0c;
   color: #fff;
-  padding: 20px 0;
-  position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 1000;
-  border-radius: 8px;
-  max-width: 1000px;
-  margin: 22px;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 .container {
   background-color: #faf9f9;
   max-width: 1000px;
-  margin: 40px auto;
+  margin: 2px auto;
   padding: 5px;
   border-radius: 10px;
 
@@ -61,7 +60,7 @@ section {
   margin: auto;
 }
 
-#home {
+#Inicio {
   text-align: center;
   padding-top: 80px;
   background-color: #d4d0d0;
